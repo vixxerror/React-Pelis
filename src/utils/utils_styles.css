@@ -1,0 +1,23 @@
+.table_list {
+	width: 100%;
+}
+
+.table_list_titulo {
+	font-size: 30px;
+	font-weight: 800;
+	color: rgb(239 68 68);
+	margin-top: 3.5rem;
+	margin-bottom: 3.5rem;
+}
+
+.table_list_text {
+	color: white;
+}
+
+.title_main {
+	font-size: 30px;
+	font-weight: 800;
+	color: rgb(239 68 68);
+	margin-top: 3.5rem;
+	margin-bottom: 3.5rem;
+}

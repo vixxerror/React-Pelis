@@ -1,0 +1,131 @@
+.r_nav {
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	color: white;
+	width: 100%;
+	background-color: #111111;
+	z-index: 1000;
+	box-shadow: -2px 0px 26px 4px rgba(0, 0, 0, 0.59);
+	-webkit-box-shadow: -2px 0px 26px 4px rgba(0, 0, 0, 0.59);
+	-moz-box-shadow: -2px 0px 26px 4px rgba(0, 0, 0, 0.59);
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 2px;
+	border-color: red;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.content {
+	padding-left: 30px;
+	padding-right: 30px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 100%;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.logo_icon {
+	margin-right: 20px;
+}
+
+.logo_title {
+	font-weight: 600;
+	color: white;
+	font-size: 20px;
+}
+
+.logo_title:hover {
+	color: rgb(239 68 68);
+	transition-duration: 300ms;
+}
+
+.options {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.options_auth {
+	display: flex;
+	gap: 20px;
+}
+
+.option_item {
+	color: white;
+}
+.option_item:hover {
+	color: rgb(239 68 68);
+	transition-duration: 300ms;
+}
+
+.options_item_register {
+	margin-left: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	background-color: rgb(100 116 139);
+	color: white;
+}
+
+.options_item_register:hover {
+	transform: scale(1.02);
+	font-weight: 550;
+	color: white;
+	transition-duration: 300ms;
+}
+
+.options_item_login {
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	color: white;
+	background-color: rgb(239 68 68);
+}
+
+.options_item_login:hover {
+	transform: scale(1.02);
+	font-weight: 550;
+	color: white;
+	transition-duration: 300ms;
+}
+
+.options_item_logout {
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	color: white;
+	background-color: rgb(239 68 68);
+	border: 0;
+}
+
+.options_item_logout:hover {
+	transform: scale(1.02);
+	font-weight: 550;
+	color: white;
+	transition-duration: 300ms;
+}
+
+.options_tag_name {
+	background-color: rgb(52, 161, 52);
+	border-radius: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
